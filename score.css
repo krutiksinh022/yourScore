@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    margin-top: 220px;
+    background-color: blue;
+    height: 50vh;
+    width: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+button {
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
